@@ -44,24 +44,26 @@ decided to port Matt&rsquo;s code to use Ruby instead of Objective-C.</p>
 create a fullscreen window in MacRuby. To run the app, you need to have the
 latest MacRuby (0.6) installed.</p>
 
-<p>Enjoy!</p>
+<h5>Enjoy!</h5>
 
         <div class="post-foot">
             <a href="/2010/07/fullscreen-macruby" class="permalink" title="Permanent URL of this post">PERMANENT URL</a>
             
         </div>
     </div>
-    <div class="clear"></div>
+    <div class="clear">
+</div>
 </div>
 <div class="post">
     <div class="post-meta">
         <h2>Ruby Config Objects Revisited</h2>
-        <div class="post-date">Thursday, 08 Apr 2010</div>
+        <div class="post-date">Thursday,08 Apr 2010</div>
         <div class="post-tags">
-        <a title="All posts tagged ruby" href="/tag/ruby">#ruby</a>
+        <a title="All posts tagged ruby" href="/tag/ruby">#Ruby</a>
         </div>
     </div>
     <div class="post-body">
+<pre>
     <p>Since writing about <a href="/2010/02/flexible-ruby-config-objects">Ruby configuration objects</a> a few months ago, I&rsquo;ve
 done a bit of hacking on my original <code>Config</code> class. My main issue with it is
 that it&rsquo;s basically serving as a wrapper for a Hash, but it&rsquo;s a foreign
@@ -85,7 +87,7 @@ this sort of thing, but it&rsquo;s not as flexible as I&rsquo;d like it to be.</
 that actually subclasses <a href="http://ruby-doc.org/core/classes/Hash.html">Hash</a>. With all of the nice methods of Hash
 already built-in, a SymbolTable object becomes much more powerful than its
 Config predecessor and immediately usable.</p>
-
+</pre>
 <pre><code>require 'symboltable'
 
 t = SymbolTable.new
